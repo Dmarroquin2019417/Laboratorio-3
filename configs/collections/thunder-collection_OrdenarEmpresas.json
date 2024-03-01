@@ -1,0 +1,34 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "OrdenarEmpresas",
+    "dateExported": "2024-03-01T16:42:15.082Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a65550b2-a092-4ecc-b8e0-439af750a5eb",
+            "colId": "637cacc3-a880-4ffc-8534-1bee69897853",
+            "containerId": "",
+            "name": "orden_alfabéticamente",
+            "url": "http://localhost:7000/gestor/v1/companies/ordenar?criterio=nombre",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-01T13:20:31.673Z",
+            "modified": "2024-03-01T16:22:32.546Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMDA2OGNjM2JhY2M0NzA1ODdiOGMiLCJpYXQiOjE3MDkzMTAwNzIsImV4cCI6MTcwOTMxMzY3Mn0.zP9fCWt2FF6r1WLxgkKHcdRy2lz1pUq5JwBKRwbl8Ks"
+                }
+            ],
+            "params": [
+                {
+                    "name": "criterio",
+                    "value": "nombre",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}

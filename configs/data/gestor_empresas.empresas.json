@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "65e1df08927032a39975f861"
+  },
+  "nombre": "Burger king",
+  "nivelImpacto": "medio",
+  "añosTrayectoria": 10,
+  "categoriaEmpresarial": "comida",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e1e2dbe94f66277cfe99cf"
+  },
+  "nombre": "Mcdonals",
+  "nivelImpacto": "Medio",
+  "añosTrayectoria": 5,
+  "categoriaEmpresarial": "Comida rapida",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e1e5f5e94f66277cfe99e9"
+  },
+  "nombre": "Pollo pinulito",
+  "nivelImpacto": "Medio",
+  "añosTrayectoria": 7,
+  "categoriaEmpresarial": "Comida",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e1e7b6e94f66277cfe99fd"
+  },
+  "nombre": "Sarita",
+  "nivelImpacto": "bajo",
+  "añosTrayectoria": 3,
+  "categoriaEmpresarial": "helados",
+  "estado": true,
+  "__v": 0
+}]

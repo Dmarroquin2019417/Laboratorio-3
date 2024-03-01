@@ -1,0 +1,76 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Empresas",
+    "dateExported": "2024-03-01T16:41:08.177Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "9793d40c-ee9a-44e9-9703-cf3662ea6940",
+            "colId": "22f59189-bcae-4166-9b9e-508123901c22",
+            "containerId": "",
+            "name": "formulario_empresas",
+            "url": "http://localhost:7000/gestor/v1/companies",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-01T13:20:31.623Z",
+            "modified": "2024-03-01T16:22:48.486Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMDA2OGNjM2JhY2M0NzA1ODdiOGMiLCJpYXQiOjE3MDkzMTAwNzIsImV4cCI6MTcwOTMxMzY3Mn0.zP9fCWt2FF6r1WLxgkKHcdRy2lz1pUq5JwBKRwbl8Ks"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"nombre\": \"Neveria\",\n    \"nivelImpacto\": \"medio\",\n    \"añosTrayectoria\": 3,\n    \"categoriaEmpresarial\": \"helados\"\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e5906ea2-414b-4e7d-9992-89d9d8d262d8",
+            "colId": "22f59189-bcae-4166-9b9e-508123901c22",
+            "containerId": "",
+            "name": "listado_empresas",
+            "url": "http://localhost:7000/gestor/v1/companies",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-01T13:20:31.624Z",
+            "modified": "2024-03-01T16:22:42.845Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMDA2OGNjM2JhY2M0NzA1ODdiOGMiLCJpYXQiOjE3MDkzMTAwNzIsImV4cCI6MTcwOTMxMzY3Mn0.zP9fCWt2FF6r1WLxgkKHcdRy2lz1pUq5JwBKRwbl8Ks"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2fa97429-8dfc-4164-b3f0-ce9ab6113cfa",
+            "colId": "22f59189-bcae-4166-9b9e-508123901c22",
+            "containerId": "",
+            "name": "editar_empresas",
+            "url": "http://localhost:7000/gestor/v1/companies/65e1e5f5e94f66277cfe99e9",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-01T13:20:31.625Z",
+            "modified": "2024-03-01T16:23:00.041Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMDA2OGNjM2JhY2M0NzA1ODdiOGMiLCJpYXQiOjE3MDkzMTAwNzIsImV4cCI6MTcwOTMxMzY3Mn0.zP9fCWt2FF6r1WLxgkKHcdRy2lz1pUq5JwBKRwbl8Ks"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Pollo pinulito\",\n  \"nivelImpacto\": \"Medio\",\n  \"añosTrayectoria\": 7,\n  \"categoriaEmpresarial\": \"Comida\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

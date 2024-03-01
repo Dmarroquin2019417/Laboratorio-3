@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Reportes",
+    "dateExported": "2024-03-01T16:43:31.555Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "717485b0-c345-4eab-a98e-08ed2ba5d579",
+            "colId": "09e29703-601b-4bf3-8f3a-0cebce913ff3",
+            "containerId": "",
+            "name": "reporte_formato_Excel",
+            "url": "http://localhost:7000/gestor/v1/companies/excel",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-01T15:06:42.524Z",
+            "modified": "2024-03-01T16:23:52.646Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMDA2OGNjM2JhY2M0NzA1ODdiOGMiLCJpYXQiOjE3MDkzMTAwNzIsImV4cCI6MTcwOTMxMzY3Mn0.zP9fCWt2FF6r1WLxgkKHcdRy2lz1pUq5JwBKRwbl8Ks"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
