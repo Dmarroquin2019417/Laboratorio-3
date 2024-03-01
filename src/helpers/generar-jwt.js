@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Importar la biblioteca 'jsonwebtoken'
 import jwt from 'jsonwebtoken';
 
@@ -9,10 +10,18 @@ export const generarJWT = (uid = ' ') => {
         const payload = { uid };
 
         // Firmar el token con la clave secreta y configuraciones adicionales
+=======
+const jwt = require('jsonwebtoken')
+
+const generarJWT = (uid = '') => {
+    return new Promise((resolve, reject) => {
+        const payload = { uid };
+>>>>>>> 71b27106f49d63c73aa97d2f4e8d698543d4f420
         jwt.sign(
             payload,
             process.env.SECRETORPRIVATEKEY,
             {
+<<<<<<< HEAD
                 expiresIn: '1h' // Token expira en 1 hora
             },
             (err, token) => {
@@ -21,4 +30,17 @@ export const generarJWT = (uid = ' ') => {
             }
         );
     });
+=======
+                expiresIn: '1h',
+            },
+        (err, token) =>{
+            err ? (console.log(err),reject('Nose pudo generar token')) : resolve(token)
+        }   
+        )
+    })
+}
+
+module.exports ={
+    generarJWT
+>>>>>>> 71b27106f49d63c73aa97d2f4e8d698543d4f420
 }
