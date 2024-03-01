@@ -1,0 +1,61 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Empresas",
+    "dateExported": "2024-03-01T05:17:35.110Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0763877e-0475-422b-b90e-07b87d9c7af3",
+            "colId": "ab9edcd1-4226-471a-952d-6bcaeffbb617",
+            "containerId": "",
+            "name": "formulario_empresas",
+            "url": "http://localhost:7000/gestor/v1/companies",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-01T04:41:50.009Z",
+            "modified": "2024-03-01T05:11:55.297Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"nombre\": \"ththth\",\n    \"nivelImpacto\": \"Alto\",\n    \"añosTrayectoria\": 5,\n    \"categoriaEmpresarial\": \"nose\"\n  }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "fdd484c9-0486-4be3-a67a-04971cc7fecd",
+            "colId": "ab9edcd1-4226-471a-952d-6bcaeffbb617",
+            "containerId": "",
+            "name": "listado_empresas",
+            "url": "http://localhost:7000/gestor/v1/companies",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-01T04:48:04.101Z",
+            "modified": "2024-03-01T05:07:19.761Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "184d87cd-ae31-4c65-8f1b-030605090f88",
+            "colId": "ab9edcd1-4226-471a-952d-6bcaeffbb617",
+            "containerId": "",
+            "name": "editar_empresas",
+            "url": "http://localhost:7000/gestor/v1/companies/65e15e192159518a5f0e743c",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-01T05:02:43.272Z",
+            "modified": "2024-03-01T05:06:51.570Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"nombre\": \"Mcdonals\",\r\n  \"nivelImpacto\": \"Medio\",\r\n  \"añosTrayectoria\": 5,\r\n  \"categoriaEmpresarial\": \"Comida rapida\"\r\n}\r\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

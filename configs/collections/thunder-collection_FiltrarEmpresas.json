@@ -1,0 +1,29 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "FiltrarEmpresas",
+    "dateExported": "2024-03-01T05:17:40.344Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "38734636-539c-420d-9fae-c2dcdbf96f5a",
+            "colId": "e65bdce2-7e81-478a-a5c7-8dc05b07ddc4",
+            "containerId": "",
+            "name": "con_más_de_5_años_de_trayectoria",
+            "url": "http://localhost:7000/gestor/v1/companies/filtrar?criterio=años",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-01T05:00:41.663Z",
+            "modified": "2024-03-01T05:03:32.787Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "criterio",
+                    "value": "años",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}

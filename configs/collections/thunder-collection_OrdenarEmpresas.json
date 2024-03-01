@@ -1,0 +1,29 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "OrdenarEmpresas",
+    "dateExported": "2024-03-01T05:17:45.199Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c2c0e610-09ca-43e2-9530-f481739988b1",
+            "colId": "9abbc328-04fe-4da4-ac35-60db8a9116fe",
+            "containerId": "",
+            "name": "orden_alfabéticamente",
+            "url": "http://localhost:7000/gestor/v1/companies/ordenar?criterio=nombre",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-01T05:01:43.950Z",
+            "modified": "2024-03-01T05:03:24.595Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "criterio",
+                    "value": "nombre",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
